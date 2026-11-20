@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /README.txt
+Disallow: /Open%20Website.cmd
+Disallow: /release-manifest.json
+
+Sitemap: https://delphiwebstudio.github.io/sitemap.xml

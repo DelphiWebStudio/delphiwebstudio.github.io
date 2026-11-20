@@ -1,5 +1,5 @@
 Delphi Web Studio Pro product website
-Local review copy - November 20, 2026
+Website publication - November 20, 2026
 
 Open the site
 Double-click Open Website.cmd or open index.html in a browser. All core pages,
@@ -9,13 +9,14 @@ copying. No application build tools or account are needed to review the site.
 
 Contents
 index.html       Product overview
-features.html    Capabilities and actual editor screenshots
+features.html    Six concise groups covering the essential capabilities
 download.html    Local Win64 and Win32 installers, fingerprints and requirements
 guides.html      All seven PDF and DOCX guide pairs
 about.html       Open-source foundation, credits and license
 updates.html     Build 4, 3 and 2 release notes
 privacy.html     Website data and online translation disclosure
-assets/          Shared styles, scripts, safe screenshots and product graphics
+404.html         Helpful missing-page response with links back to the website
+assets/          Shared styles, scripts, illustrative screenshots and product graphics
 downloads/       The actual installers, checksum files, guides and license notices
 release-manifest.json  Version, relative paths, byte sizes and SHA-256 fingerprints
 
@@ -42,11 +43,22 @@ sizes and version/date labels together with release-manifest.json and updates.ht
 The manifest is verification metadata; pages do not fetch it at runtime.
 
 Publication
-This folder has not been published, registered with hosting or pushed to GitHub.
-It is excluded locally from the application repository. Its separate local Git
-repository has no remote. Choose a domain/host before publication, then add the
-live canonical URLs and absolute social-preview image URL. No analytics or
-contact form is configured. Nothing in this folder sends email.
+Website address: https://delphiwebstudio.github.io/
+Website repository: https://github.com/DelphiWebStudio/delphiwebstudio.github.io
+The dedicated repository contains only these product website files. It is
+separate from the editor source repository, saved projects, drafts and backups.
+GitHub Pages publishes the repository's main branch from its root. The .nojekyll
+file preserves the static files without Jekyll processing. HTTPS is required.
+Canonical addresses, social-preview URLs, sitemap.xml and robots.txt use the
+public website address. No analytics or contact form is configured, and nothing
+in this website sends email. The privacy page describes GitHub hosting and the
+online translation service.
+
+Keep publication limited to the reviewed website files. Never copy application
+project folders, local credentials, backups, browser profiles or test evidence
+into this directory or its repository. Changes should be reviewed and verified
+before committing and pushing. The robots.txt file lists the public sitemap
+and asks search engines not to crawl administrative files.
 
 Illustrations
 Screenshots show a safe illustrative community project. The product icon is the

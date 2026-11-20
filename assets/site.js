@@ -108,7 +108,8 @@
     vendor.src = 'https://cdn.gtranslate.net/widgets/latest/float.js';
     vendor.async = true;
     var helper = document.createElement('script');
-    helper.src = 'assets/translation-selector.js';
+    var siteScript = document.querySelector('script[src$="assets/site.js"]');
+    helper.src = siteScript ? new URL('translation-selector.js', siteScript.src).href : 'assets/translation-selector.js';
     helper.defer = true;
     document.head.appendChild(helper);
     document.head.appendChild(vendor);

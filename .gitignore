@@ -1,3 +1,21 @@
 .DS_Store
 Thumbs.db
 *.log
+
+# Keep local credentials, editor projects and disposable work out of this site.
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.sqlite*
+*.db
+credentials*.json
+Projects/
+Website Test/
+test-results/
+backups/
+.codex/
+.agents/
+node_modules/

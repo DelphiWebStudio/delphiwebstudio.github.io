@@ -4,7 +4,7 @@
   "displayVersion": "1.0 build 4",
   "date": "2026-11-20",
   "windowsRequirements": "Windows 10 or Windows 11 with Microsoft Edge WebView2 Runtime",
-  "distribution": "local-only",
+  "distribution": "GitHub Pages direct downloads",
   "installers": [
     {
       "href": "downloads/installers/DelphiWebStudioPro-1.0.0.4-Win64-Setup.exe",
@@ -600,5 +600,7 @@
       "width": 1200,
       "height": 630
     }
-  ]
+  ],
+  "website": "https://delphiwebstudio.github.io/",
+  "repository": "https://github.com/DelphiWebStudio/delphiwebstudio.github.io"
 }
