@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Release notes — Delphi Web Studio Pro</title>
+  <meta name="description" content="Recent Delphi Web Studio Pro updates, including build 4 bullet spacing, build 3 placement and dragging, and build 2 local testing and website translation.">
+  <meta name="theme-color" content="#102b4a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Release notes — Delphi Web Studio Pro">
+  <meta property="og:description" content="Recent Delphi Web Studio Pro updates, including build 4 bullet spacing, build 3 placement and dragging, and build 2 local testing and website translation.">
+  <meta property="og:image" content="assets/images/social-card.png">
+  <link rel="icon" href="assets/images/favicon.ico">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand notranslate" translate="no" href="index.html" aria-label="Delphi Web Studio Pro home"><img src="assets/images/app-icon.png" width="44" height="44" alt=""><span>Delphi <strong>Web Studio Pro</strong></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">Menu <span aria-hidden="true" class="menu-lines"></span></button>
+      <nav id="primary-navigation" class="site-nav" aria-label="Main navigation"><a href="features.html">Features</a><a href="guides.html">Guides</a><a href="about.html">About</a><a class="button nav-cta" href="download.html">Download</a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-intro"><div class="wrap"><p class="eyebrow">Release notes</p><h1>Steady improvements<br>for everyday website work.</h1><p>See what changed in the <span class="notranslate" translate="no">Windows</span> editor, then choose the current installer when you're ready to update.</p><a class="button primary" href="download.html">Get the latest build</a></div></section>
+
+    <section class="section"><div class="wrap prose-page release-list">
+      <article class="release-entry" id="build-4"><p class="eyebrow">Current release · <time datetime="2026-11-20">November 20, 2026</time></p><h2><span class="notranslate" translate="no">1.0 build 4</span> — Bullets keep their spacing.</h2><p>Applying bullets now adds markers at the existing logical line starts. Paragraph and heading boundaries, blank lines, spacing, indentation, fonts, colors and links stay intact instead of the selection being extracted and rebuilt.</p><ul class="feature-list"><li>Partial selections affect the intended lines.</li><li>Existing bullet and list markers are left alone.</li><li>One Undo removes the new bullets while keeping pending wording.</li><li>Source-pasted heading lines retain their separate boundaries and tags.</li><li>Guides and both <span class="notranslate" translate="no">Windows</span> installer editions are updated.</li></ul><p class="note">If an earlier operation already saved joined lines, use Undo, an intact earlier copy or manual editing to recover the missing breaks before applying bullets again. The update preserves existing project content rather than guessing its layout.</p><details class="faq-item"><summary>How was build 4 checked?</summary><div><p>The original spacing problem was reproduced before the fix. Checks in both desktop editions covered bullet formatting, text placement, dragging, Undo/Redo and saved-project behavior. The regression suite and installer payload checks also passed, and all seven illustrated guide pairs were reviewed.</p><p>These checks used isolated example projects. They do not replace reviewing your own content and keeping a saved project before an update.</p></div></details><p class="small-note"><span class="notranslate" translate="no">Windows</span> file and product version: <span class="notranslate" translate="no">1.0.0.4</span>.</p></article>
+
+      <article class="release-entry" id="build-3"><p class="eyebrow"><time datetime="2026-11-20">November 20, 2026</time></p><h2><span class="notranslate" translate="no">1.0 build 3</span> — Place text where you choose.</h2><p>The left-panel and canvas-menu Add text commands now share one click-to-place process. Invalid destinations leave placement active rather than silently placing content at a block's top-left corner or after the footer.</p><p>A visible Move control makes text-box movement available while typing, saving pending wording before the drag. Ordinary text and paste commands appear immediately in the context menu, with formatting controls in their existing settings windows.</p><p>The update also checked movement between sections, invalid-drop recovery, Undo/Redo and the preservation of existing projects and drafts.</p><p class="small-note"><span class="notranslate" translate="no">Windows</span> file and product version: <span class="notranslate" translate="no">1.0.0.3</span>.</p></article>
+
+      <article class="release-entry" id="build-2"><p class="eyebrow"><time datetime="2026-11-19">November 19, 2026</time></p><h2><span class="notranslate" translate="no">1.0 build 2</span> — Review locally before you share.</h2><p>A permanent local test-folder workflow makes it easier to refresh exported website files and open the result in a browser. A verified pre-refresh ZIP protects affected files, while unrelated files remain separate.</p><p>Expanded Check site tools review supported text/background contrast and external-link responses. Page settings bring page names, addresses, exported-filename previews and supported internal-link updates together with Undo.</p><p>Optional <span class="notranslate" translate="no">TAtlas</span> website translation adds a floating <span class="notranslate" translate="no">GTranslate</span> language selector to exported pages. It translates the visitor website and leaves the editor interface and original project wording unchanged.</p><p class="small-note"><span class="notranslate" translate="no">Windows</span> file and product version: <span class="notranslate" translate="no">1.0.0.2</span>.</p></article>
+    </div></section>
+
+    <section class="section section-tint"><div class="wrap split"><div class="section-heading"><p class="eyebrow">When you update</p><h2>Keep a saved project<br>close by.</h2><p>Save your current project before installing a newer build. Choose the edition for your <span class="notranslate" translate="no">Windows</span> system, and keep the illustrated guides handy for the controls and workflows you use most.</p></div><div class="button-row"><a class="button primary" href="download.html">Choose a <span class="notranslate" translate="no">Windows</span> download</a><a class="button secondary" href="guides.html">Browse the guides</a></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-grid"><div class="footer-brand"><a class="brand notranslate" translate="no" href="index.html"><img src="assets/images/app-icon.png" width="42" height="42" alt=""><span>Delphi <strong>Web Studio Pro</strong></span></a><p>A visual <span class="notranslate" translate="no">Windows</span> editor for websites you can keep, maintain and take with you.</p></div><div><h2>Explore</h2><a href="features.html">Features</a><a href="guides.html">Illustrated guides</a><a href="download.html">Download for <span class="notranslate" translate="no">Windows</span></a></div><div><h2>The project</h2><a href="about.html">About the application</a><a href="updates.html">Release notes</a><a href="about.html#license">License and credits</a></div></div><div class="wrap footer-bottom"><p>© 2026 <span class="notranslate" translate="no">Delphi Web Studio Pro</span>. Built on Federico De Ponte’s <span class="notranslate" translate="no">OpenPage</span>.</p><a href="privacy.html">Website privacy</a></div></footer>
+  <dialog class="image-dialog" aria-labelledby="image-dialog-title"><div class="image-dialog-inner"><div class="dialog-heading"><h2 id="image-dialog-title">Editor screenshot</h2><button class="dialog-close" type="button" aria-label="Close image">Close</button></div><img class="dialog-image" src="assets/images/editor-overview.png" alt=""><p class="dialog-caption"></p></div></dialog>
+  <div class="gtranslate_wrapper notranslate" translate="no" aria-label="Website language"></div>
+  <noscript><p class="noscript-note">Website translation and screenshot enlargement need JavaScript. All downloads, guides and pages remain available.</p></noscript>
+</body>
+</html>

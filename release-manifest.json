@@ -1,0 +1,604 @@
+{
+  "product": "Delphi Web Studio Pro",
+  "version": "1.0.0.4",
+  "displayVersion": "1.0 build 4",
+  "date": "2026-11-20",
+  "windowsRequirements": "Windows 10 or Windows 11 with Microsoft Edge WebView2 Runtime",
+  "distribution": "local-only",
+  "installers": [
+    {
+      "href": "downloads/installers/DelphiWebStudioPro-1.0.0.4-Win64-Setup.exe",
+      "bytes": 25278077,
+      "sha256": "f0eb5342a0d37ce8bdfb992c81636b5591863a3387b8b7a5579115e6c050b93d",
+      "kind": "installer",
+      "architecture": "Win64",
+      "label": "64-bit Windows",
+      "sha256Href": "downloads/installers/DelphiWebStudioPro-1.0.0.4-Win64-Setup.exe.sha256",
+      "checksumFile": {
+        "href": "downloads/installers/DelphiWebStudioPro-1.0.0.4-Win64-Setup.exe.sha256",
+        "bytes": 110,
+        "sha256": "ac6ebce567703d3b4bf2d869222bd447dfe63af232d61f223ad90a8ee472b40d",
+        "kind": "installer-checksum"
+      },
+      "sizeLabel": "25.3 MB"
+    },
+    {
+      "href": "downloads/installers/DelphiWebStudioPro-1.0.0.4-Win32-Setup.exe",
+      "bytes": 24778234,
+      "sha256": "0bf1d00caf77fef33f317dd1ce7852d2a1e14bd9069195188c2de4068ba4f429",
+      "kind": "installer",
+      "architecture": "Win32",
+      "label": "32-bit Windows",
+      "sha256Href": "downloads/installers/DelphiWebStudioPro-1.0.0.4-Win32-Setup.exe.sha256",
+      "checksumFile": {
+        "href": "downloads/installers/DelphiWebStudioPro-1.0.0.4-Win32-Setup.exe.sha256",
+        "bytes": 110,
+        "sha256": "756989d39dbf58a062669a18c8ab58c0ca577efde07e3f7033bbe3520fc74127",
+        "kind": "installer-checksum"
+      },
+      "sizeLabel": "24.8 MB"
+    }
+  ],
+  "guides": [
+    {
+      "title": "User Guide",
+      "slug": "user-guide",
+      "description": "Start here for illustrated, step-by-step editing, saving, media, AI assistance and website export.",
+      "pages": 65,
+      "pdf": {
+        "href": "downloads/guides/delphi-web-studio-pro-user-guide.pdf",
+        "bytes": 2098630,
+        "sha256": "9c3eb5a4e889bc7e344efe150deb3564e4f47dae6f1b11653e1e50d66aadc649",
+        "kind": "guide-pdf"
+      },
+      "docx": {
+        "href": "downloads/guides/delphi-web-studio-pro-user-guide.docx",
+        "bytes": 2261085,
+        "sha256": "98097c1610eaa32ee9897841db987d5d7324c18b43298a2fa987abc81809fa00",
+        "kind": "guide-docx"
+      }
+    },
+    {
+      "title": "Complete Workflow",
+      "slug": "complete-workflow",
+      "description": "Follow a website from project setup through page editing, review, export and maintenance.",
+      "pages": 18,
+      "pdf": {
+        "href": "downloads/guides/delphi-web-studio-pro-complete-workflow.pdf",
+        "bytes": 680848,
+        "sha256": "c7649f367a76b1d5137bc8ea51bc03622c66b8c438011e13e7ee7f30d77d73f3",
+        "kind": "guide-pdf"
+      },
+      "docx": {
+        "href": "downloads/guides/delphi-web-studio-pro-complete-workflow.docx",
+        "bytes": 771889,
+        "sha256": "58c1df2f6ae90d6a7316190cb5e0face3224ab6406ce9a1a37f3c03d2e228ec8",
+        "kind": "guide-docx"
+      }
+    },
+    {
+      "title": "Editor Reference",
+      "slug": "editor-reference",
+      "description": "Find the controls for pages, text, objects, media, navigation and site settings.",
+      "pages": 16,
+      "pdf": {
+        "href": "downloads/guides/delphi-web-studio-pro-editor-reference.pdf",
+        "bytes": 574527,
+        "sha256": "428f290de7fa41b324d91319f8f7a9b11460369d479f92f2eea7d6f697f82971",
+        "kind": "guide-pdf"
+      },
+      "docx": {
+        "href": "downloads/guides/delphi-web-studio-pro-editor-reference.docx",
+        "bytes": 523184,
+        "sha256": "55107d7500719e2ea94f267b56a11111f418aceee966a5175cf21d465b33e4e1",
+        "kind": "guide-docx"
+      }
+    },
+    {
+      "title": "Capabilities and Publishing Reference",
+      "slug": "capabilities-and-publishing-reference",
+      "description": "Understand the editor's capabilities, compatible hosting and publishing choices.",
+      "pages": 10,
+      "pdf": {
+        "href": "downloads/guides/delphi-web-studio-pro-capabilities-and-publishing-reference.pdf",
+        "bytes": 207661,
+        "sha256": "04548592cfdb1ffe60d5f562b01cd0f693df46443817a9061fddd5e5ff438cca",
+        "kind": "guide-pdf"
+      },
+      "docx": {
+        "href": "downloads/guides/delphi-web-studio-pro-capabilities-and-publishing-reference.docx",
+        "bytes": 171530,
+        "sha256": "e7788c4a37ec3d4755d6722e5823ea1b447c9af8074d2f39e92f4394e5432720",
+        "kind": "guide-docx"
+      }
+    },
+    {
+      "title": "Engineering Guide",
+      "slug": "engineering-guide",
+      "description": "Explore the Delphi host, visual editor, project model, storage, Gemini and export architecture.",
+      "pages": 33,
+      "pdf": {
+        "href": "downloads/guides/delphi-web-studio-pro-engineering-guide.pdf",
+        "bytes": 1067554,
+        "sha256": "00d8daf998c19198ddadf78ecb2576910ca4ce259c2a62b2eeeec46e06ec3eb9",
+        "kind": "guide-pdf"
+      },
+      "docx": {
+        "href": "downloads/guides/delphi-web-studio-pro-engineering-guide.docx",
+        "bytes": 782737,
+        "sha256": "7a06372dbedf4d55623e35f326f0ab72efc2559a596b42eee8ad17d342325e03",
+        "kind": "guide-docx"
+      }
+    },
+    {
+      "title": "Runtime Flow",
+      "slug": "runtime-flow",
+      "description": "Trace startup, project loading, editing, native messages and exported website files.",
+      "pages": 12,
+      "pdf": {
+        "href": "downloads/guides/delphi-web-studio-pro-runtime-flow.pdf",
+        "bytes": 427375,
+        "sha256": "9f6ba883db23e8464bdfce894fed5d9b5bd5777e890a163541288f5ce63bcd5d",
+        "kind": "guide-pdf"
+      },
+      "docx": {
+        "href": "downloads/guides/delphi-web-studio-pro-runtime-flow.docx",
+        "bytes": 393091,
+        "sha256": "91ef5df040af9b376ffc44ff101cc9bc6797fa584588b3b24c5850d8c58454af",
+        "kind": "guide-docx"
+      }
+    },
+    {
+      "title": "Test Guide",
+      "slug": "test-guide",
+      "description": "Check installation, editing, saving, reopening, responsive layouts and website export.",
+      "pages": 11,
+      "pdf": {
+        "href": "downloads/guides/delphi-web-studio-pro-test-guide.pdf",
+        "bytes": 317733,
+        "sha256": "5a35d02689c443b9b64344d65e6eee0ff20d7450657bb60621d3c22ee1277461",
+        "kind": "guide-pdf"
+      },
+      "docx": {
+        "href": "downloads/guides/delphi-web-studio-pro-test-guide.docx",
+        "bytes": 265153,
+        "sha256": "b210d8d15ade1f132a7218aec115e4d23cd7a5a4cd75b3d461728201e5b3209b",
+        "kind": "guide-docx"
+      }
+    }
+  ],
+  "documents": [
+    {
+      "href": "downloads/notices/LICENSE.txt",
+      "bytes": 1095,
+      "sha256": "c9ee08345eb1e0b9f71ee3d74e6e51cdfafc503fb67365b36e44a36076116e3c",
+      "kind": "notice",
+      "title": "MIT license"
+    },
+    {
+      "href": "downloads/notices/THIRD_PARTY_NOTICES.md",
+      "bytes": 23176,
+      "sha256": "6293f1d66caae45473ca3409e8d643f55832c6dfe01d4eb63a486a536fe58aef",
+      "kind": "notice",
+      "title": "Third-party notices"
+    },
+    {
+      "href": "downloads/notices/docs/THIRD_PARTY_LICENSE_TEXTS.txt",
+      "bytes": 390092,
+      "sha256": "ff627bae1deff89bf54d4b3aec1ea292c8d15698309ecb8da5e7a7391aeb8e8d",
+      "kind": "notice",
+      "title": "Third-party license texts"
+    },
+    {
+      "href": "downloads/notices/docs/WEBVIEW2_SDK_LICENSE.txt",
+      "bytes": 1487,
+      "sha256": "0af8f1b807512aae39c2ac1aa4d0cae65cabecb6fd554b8439a5162a0d6eca55",
+      "kind": "notice",
+      "title": "Microsoft WebView2 SDK license"
+    },
+    {
+      "href": "downloads/notices/docs/WEBSITE_TRANSLATION.md",
+      "bytes": 3808,
+      "sha256": "a6c1b9ec985d39145ef49b529d1833af75b575baea6580cddf424029009ddac8",
+      "kind": "notice",
+      "title": "Website translation service notes"
+    }
+  ],
+  "assets": [
+    {
+      "href": "assets/images/editor-overview.png",
+      "bytes": 70457,
+      "sha256": "c5eabb7225646e2e960e3eeab621e2c3cfcf74b0240a89b0a3dc597e02092abc",
+      "kind": "screenshot",
+      "title": "Visual editing canvas",
+      "caption": "Actual editor with a fictional community website.",
+      "width": 1322,
+      "height": 812,
+      "actualProductScreenshot": true,
+      "demonstrationContent": "fictional"
+    },
+    {
+      "href": "assets/images/editor-layers.png",
+      "bytes": 77528,
+      "sha256": "f06671e111c96bb6ad97a0b824a87cee89b5a67d398afc6581a99fa2eeb08364",
+      "kind": "screenshot",
+      "title": "Layers and page objects",
+      "caption": "The Layers panel helps select objects within sections.",
+      "width": 957,
+      "height": 712,
+      "actualProductScreenshot": true,
+      "demonstrationContent": "fictional"
+    },
+    {
+      "href": "assets/images/media-library.png",
+      "bytes": 54932,
+      "sha256": "3cc887500f4736d7a1caf08fd327cbb60bddaa0a6c4d852b792b769073a817e2",
+      "kind": "screenshot",
+      "title": "Project media library",
+      "caption": "Actual media picker using synthetic demonstration thumbnails.",
+      "width": 1120,
+      "height": 820,
+      "actualProductScreenshot": true,
+      "demonstrationContent": "fictional"
+    },
+    {
+      "href": "assets/images/gemini-edit-preview.png",
+      "bytes": 55799,
+      "sha256": "f89e21aece58b0788eb0630bf9d29f365882b170d3482a2c1e9a83fb389ecb39",
+      "kind": "screenshot",
+      "title": "Gemini proposal review",
+      "caption": "Review changes to existing content before applying them.",
+      "width": 1161,
+      "height": 876,
+      "actualProductScreenshot": true,
+      "demonstrationContent": "fictional"
+    },
+    {
+      "href": "assets/images/check-site.png",
+      "bytes": 43480,
+      "sha256": "10721fa41d55d806faef7e974367181243a01bfc05cb172267a02d396c336316",
+      "kind": "screenshot",
+      "title": "Check site",
+      "caption": "Review specific contrast and link findings and open the affected content.",
+      "width": 672,
+      "height": 621,
+      "actualProductScreenshot": true,
+      "demonstrationContent": "fictional"
+    },
+    {
+      "href": "assets/images/local-test-folder.png",
+      "bytes": 19731,
+      "sha256": "b016e2eed47ceb99a331d7a8746c90ce867c57bb471ecc3c5e20cefe16bdfc86",
+      "kind": "screenshot",
+      "title": "Local website testing",
+      "caption": "Refresh a chosen local site folder and open its visitor files in a browser.",
+      "width": 776,
+      "height": 197,
+      "actualProductScreenshot": true,
+      "demonstrationContent": "fictional"
+    },
+    {
+      "href": "assets/images/app-icon.png",
+      "bytes": 184606,
+      "sha256": "8daaf8bf5f30f9adea6ab374e728bd733f6ea36a3f320586a08dd0137ede6689",
+      "kind": "product-logo",
+      "title": "Delphi Web Studio Pro product icon",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "href": "assets/images/favicon.png",
+      "bytes": 2349,
+      "sha256": "4981f0589ed259ccff3fd5000c8fcad8113318962c12db598c8697666b4e5749",
+      "kind": "favicon",
+      "width": 32,
+      "height": 32,
+      "transparent": true
+    },
+    {
+      "href": "assets/images/favicon.ico",
+      "bytes": 94502,
+      "sha256": "0af437747619d91bb3397a2f1d1c8432b35ed51d38400bb3055b697d7de01b05",
+      "kind": "favicon"
+    },
+    {
+      "href": "assets/images/social-card.svg",
+      "bytes": 248214,
+      "sha256": "baeaa737095b08065a61b91edeab23488a71d7599581ece1a36e6ccd14b4e3e1",
+      "kind": "social-card",
+      "title": "Delphi Web Studio Pro social sharing card",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "href": "assets/images/social-card.png",
+      "bytes": 343639,
+      "sha256": "f9b31e66789e779a6ab4235d376c140e36907fbaab17d9e1436dc507ba28950e",
+      "kind": "social-card",
+      "title": "Delphi Web Studio Pro social sharing card",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "files": [
+    {
+      "href": "assets/images/editor-overview.png",
+      "bytes": 70457,
+      "sha256": "c5eabb7225646e2e960e3eeab621e2c3cfcf74b0240a89b0a3dc597e02092abc",
+      "kind": "screenshot",
+      "title": "Visual editing canvas",
+      "caption": "Actual editor with a fictional community website.",
+      "width": 1322,
+      "height": 812,
+      "actualProductScreenshot": true,
+      "demonstrationContent": "fictional"
+    },
+    {
+      "href": "assets/images/editor-layers.png",
+      "bytes": 77528,
+      "sha256": "f06671e111c96bb6ad97a0b824a87cee89b5a67d398afc6581a99fa2eeb08364",
+      "kind": "screenshot",
+      "title": "Layers and page objects",
+      "caption": "The Layers panel helps select objects within sections.",
+      "width": 957,
+      "height": 712,
+      "actualProductScreenshot": true,
+      "demonstrationContent": "fictional"
+    },
+    {
+      "href": "assets/images/media-library.png",
+      "bytes": 54932,
+      "sha256": "3cc887500f4736d7a1caf08fd327cbb60bddaa0a6c4d852b792b769073a817e2",
+      "kind": "screenshot",
+      "title": "Project media library",
+      "caption": "Actual media picker using synthetic demonstration thumbnails.",
+      "width": 1120,
+      "height": 820,
+      "actualProductScreenshot": true,
+      "demonstrationContent": "fictional"
+    },
+    {
+      "href": "assets/images/gemini-edit-preview.png",
+      "bytes": 55799,
+      "sha256": "f89e21aece58b0788eb0630bf9d29f365882b170d3482a2c1e9a83fb389ecb39",
+      "kind": "screenshot",
+      "title": "Gemini proposal review",
+      "caption": "Review changes to existing content before applying them.",
+      "width": 1161,
+      "height": 876,
+      "actualProductScreenshot": true,
+      "demonstrationContent": "fictional"
+    },
+    {
+      "href": "assets/images/check-site.png",
+      "bytes": 43480,
+      "sha256": "10721fa41d55d806faef7e974367181243a01bfc05cb172267a02d396c336316",
+      "kind": "screenshot",
+      "title": "Check site",
+      "caption": "Review specific contrast and link findings and open the affected content.",
+      "width": 672,
+      "height": 621,
+      "actualProductScreenshot": true,
+      "demonstrationContent": "fictional"
+    },
+    {
+      "href": "assets/images/local-test-folder.png",
+      "bytes": 19731,
+      "sha256": "b016e2eed47ceb99a331d7a8746c90ce867c57bb471ecc3c5e20cefe16bdfc86",
+      "kind": "screenshot",
+      "title": "Local website testing",
+      "caption": "Refresh a chosen local site folder and open its visitor files in a browser.",
+      "width": 776,
+      "height": 197,
+      "actualProductScreenshot": true,
+      "demonstrationContent": "fictional"
+    },
+    {
+      "href": "assets/images/app-icon.png",
+      "bytes": 184606,
+      "sha256": "8daaf8bf5f30f9adea6ab374e728bd733f6ea36a3f320586a08dd0137ede6689",
+      "kind": "product-logo",
+      "title": "Delphi Web Studio Pro product icon",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "href": "assets/images/favicon.png",
+      "bytes": 2349,
+      "sha256": "4981f0589ed259ccff3fd5000c8fcad8113318962c12db598c8697666b4e5749",
+      "kind": "favicon",
+      "width": 32,
+      "height": 32,
+      "transparent": true
+    },
+    {
+      "href": "assets/images/favicon.ico",
+      "bytes": 94502,
+      "sha256": "0af437747619d91bb3397a2f1d1c8432b35ed51d38400bb3055b697d7de01b05",
+      "kind": "favicon"
+    },
+    {
+      "href": "downloads/installers/DelphiWebStudioPro-1.0.0.4-Win64-Setup.exe",
+      "bytes": 25278077,
+      "sha256": "f0eb5342a0d37ce8bdfb992c81636b5591863a3387b8b7a5579115e6c050b93d",
+      "kind": "installer",
+      "architecture": "Win64",
+      "label": "64-bit Windows",
+      "sha256Href": "downloads/installers/DelphiWebStudioPro-1.0.0.4-Win64-Setup.exe.sha256",
+      "checksumFile": {
+        "href": "downloads/installers/DelphiWebStudioPro-1.0.0.4-Win64-Setup.exe.sha256",
+        "bytes": 110,
+        "sha256": "ac6ebce567703d3b4bf2d869222bd447dfe63af232d61f223ad90a8ee472b40d",
+        "kind": "installer-checksum"
+      },
+      "sizeLabel": "25.3 MB"
+    },
+    {
+      "href": "downloads/installers/DelphiWebStudioPro-1.0.0.4-Win64-Setup.exe.sha256",
+      "bytes": 110,
+      "sha256": "ac6ebce567703d3b4bf2d869222bd447dfe63af232d61f223ad90a8ee472b40d",
+      "kind": "installer-checksum"
+    },
+    {
+      "href": "downloads/installers/DelphiWebStudioPro-1.0.0.4-Win32-Setup.exe",
+      "bytes": 24778234,
+      "sha256": "0bf1d00caf77fef33f317dd1ce7852d2a1e14bd9069195188c2de4068ba4f429",
+      "kind": "installer",
+      "architecture": "Win32",
+      "label": "32-bit Windows",
+      "sha256Href": "downloads/installers/DelphiWebStudioPro-1.0.0.4-Win32-Setup.exe.sha256",
+      "checksumFile": {
+        "href": "downloads/installers/DelphiWebStudioPro-1.0.0.4-Win32-Setup.exe.sha256",
+        "bytes": 110,
+        "sha256": "756989d39dbf58a062669a18c8ab58c0ca577efde07e3f7033bbe3520fc74127",
+        "kind": "installer-checksum"
+      },
+      "sizeLabel": "24.8 MB"
+    },
+    {
+      "href": "downloads/installers/DelphiWebStudioPro-1.0.0.4-Win32-Setup.exe.sha256",
+      "bytes": 110,
+      "sha256": "756989d39dbf58a062669a18c8ab58c0ca577efde07e3f7033bbe3520fc74127",
+      "kind": "installer-checksum"
+    },
+    {
+      "href": "downloads/guides/delphi-web-studio-pro-user-guide.pdf",
+      "bytes": 2098630,
+      "sha256": "9c3eb5a4e889bc7e344efe150deb3564e4f47dae6f1b11653e1e50d66aadc649",
+      "kind": "guide-pdf"
+    },
+    {
+      "href": "downloads/guides/delphi-web-studio-pro-user-guide.docx",
+      "bytes": 2261085,
+      "sha256": "98097c1610eaa32ee9897841db987d5d7324c18b43298a2fa987abc81809fa00",
+      "kind": "guide-docx"
+    },
+    {
+      "href": "downloads/guides/delphi-web-studio-pro-complete-workflow.pdf",
+      "bytes": 680848,
+      "sha256": "c7649f367a76b1d5137bc8ea51bc03622c66b8c438011e13e7ee7f30d77d73f3",
+      "kind": "guide-pdf"
+    },
+    {
+      "href": "downloads/guides/delphi-web-studio-pro-complete-workflow.docx",
+      "bytes": 771889,
+      "sha256": "58c1df2f6ae90d6a7316190cb5e0face3224ab6406ce9a1a37f3c03d2e228ec8",
+      "kind": "guide-docx"
+    },
+    {
+      "href": "downloads/guides/delphi-web-studio-pro-editor-reference.pdf",
+      "bytes": 574527,
+      "sha256": "428f290de7fa41b324d91319f8f7a9b11460369d479f92f2eea7d6f697f82971",
+      "kind": "guide-pdf"
+    },
+    {
+      "href": "downloads/guides/delphi-web-studio-pro-editor-reference.docx",
+      "bytes": 523184,
+      "sha256": "55107d7500719e2ea94f267b56a11111f418aceee966a5175cf21d465b33e4e1",
+      "kind": "guide-docx"
+    },
+    {
+      "href": "downloads/guides/delphi-web-studio-pro-capabilities-and-publishing-reference.pdf",
+      "bytes": 207661,
+      "sha256": "04548592cfdb1ffe60d5f562b01cd0f693df46443817a9061fddd5e5ff438cca",
+      "kind": "guide-pdf"
+    },
+    {
+      "href": "downloads/guides/delphi-web-studio-pro-capabilities-and-publishing-reference.docx",
+      "bytes": 171530,
+      "sha256": "e7788c4a37ec3d4755d6722e5823ea1b447c9af8074d2f39e92f4394e5432720",
+      "kind": "guide-docx"
+    },
+    {
+      "href": "downloads/guides/delphi-web-studio-pro-engineering-guide.pdf",
+      "bytes": 1067554,
+      "sha256": "00d8daf998c19198ddadf78ecb2576910ca4ce259c2a62b2eeeec46e06ec3eb9",
+      "kind": "guide-pdf"
+    },
+    {
+      "href": "downloads/guides/delphi-web-studio-pro-engineering-guide.docx",
+      "bytes": 782737,
+      "sha256": "7a06372dbedf4d55623e35f326f0ab72efc2559a596b42eee8ad17d342325e03",
+      "kind": "guide-docx"
+    },
+    {
+      "href": "downloads/guides/delphi-web-studio-pro-runtime-flow.pdf",
+      "bytes": 427375,
+      "sha256": "9f6ba883db23e8464bdfce894fed5d9b5bd5777e890a163541288f5ce63bcd5d",
+      "kind": "guide-pdf"
+    },
+    {
+      "href": "downloads/guides/delphi-web-studio-pro-runtime-flow.docx",
+      "bytes": 393091,
+      "sha256": "91ef5df040af9b376ffc44ff101cc9bc6797fa584588b3b24c5850d8c58454af",
+      "kind": "guide-docx"
+    },
+    {
+      "href": "downloads/guides/delphi-web-studio-pro-test-guide.pdf",
+      "bytes": 317733,
+      "sha256": "5a35d02689c443b9b64344d65e6eee0ff20d7450657bb60621d3c22ee1277461",
+      "kind": "guide-pdf"
+    },
+    {
+      "href": "downloads/guides/delphi-web-studio-pro-test-guide.docx",
+      "bytes": 265153,
+      "sha256": "b210d8d15ade1f132a7218aec115e4d23cd7a5a4cd75b3d461728201e5b3209b",
+      "kind": "guide-docx"
+    },
+    {
+      "href": "downloads/notices/LICENSE.txt",
+      "bytes": 1095,
+      "sha256": "c9ee08345eb1e0b9f71ee3d74e6e51cdfafc503fb67365b36e44a36076116e3c",
+      "kind": "notice",
+      "title": "MIT license"
+    },
+    {
+      "href": "downloads/notices/THIRD_PARTY_NOTICES.md",
+      "bytes": 23176,
+      "sha256": "6293f1d66caae45473ca3409e8d643f55832c6dfe01d4eb63a486a536fe58aef",
+      "kind": "notice",
+      "title": "Third-party notices"
+    },
+    {
+      "href": "downloads/notices/docs/THIRD_PARTY_LICENSE_TEXTS.txt",
+      "bytes": 390092,
+      "sha256": "ff627bae1deff89bf54d4b3aec1ea292c8d15698309ecb8da5e7a7391aeb8e8d",
+      "kind": "notice",
+      "title": "Third-party license texts"
+    },
+    {
+      "href": "downloads/notices/docs/WEBVIEW2_SDK_LICENSE.txt",
+      "bytes": 1487,
+      "sha256": "0af8f1b807512aae39c2ac1aa4d0cae65cabecb6fd554b8439a5162a0d6eca55",
+      "kind": "notice",
+      "title": "Microsoft WebView2 SDK license"
+    },
+    {
+      "href": "downloads/notices/docs/WEBSITE_TRANSLATION.md",
+      "bytes": 3808,
+      "sha256": "a6c1b9ec985d39145ef49b529d1833af75b575baea6580cddf424029009ddac8",
+      "kind": "notice",
+      "title": "Website translation service notes"
+    },
+    {
+      "href": "assets/images/social-card.svg",
+      "bytes": 248214,
+      "sha256": "baeaa737095b08065a61b91edeab23488a71d7599581ece1a36e6ccd14b4e3e1",
+      "kind": "social-card",
+      "title": "Delphi Web Studio Pro social sharing card",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "href": "assets/images/social-card.png",
+      "bytes": 343639,
+      "sha256": "f9b31e66789e779a6ab4235d376c140e36907fbaab17d9e1436dc507ba28950e",
+      "kind": "social-card",
+      "title": "Delphi Web Studio Pro social sharing card",
+      "width": 1200,
+      "height": 630
+    }
+  ]
+}
