@@ -599,8 +599,37 @@
       "title": "Delphi Web Studio Pro social sharing card",
       "width": 1200,
       "height": 630
+    },
+    {
+      "href": "downloads/source/DelphiWebStudioPro-1.0.0.4-Source.zip",
+      "bytes": 24209249,
+      "sha256": "cd35f26a4ee67a7f9fea4b37f48729bca991efac4eb15804fe1c0c7589eafa61",
+      "kind": "developer-source",
+      "sourceCommit": "ef298c4d1dfb2636947b9a1e28f1016fbb6df6f2"
+    },
+    {
+      "href": "downloads/source/DelphiWebStudioPro-1.0.0.4-Source.zip.sha256",
+      "bytes": 105,
+      "sha256": "045b69e598774369347b25ea341284905f9486e91b0bd4073ce71f9ed21b6a8c",
+      "kind": "source-checksum"
     }
   ],
   "website": "https://delphiwebstudio.github.io/",
-  "repository": "https://github.com/DelphiWebStudio/delphiwebstudio.github.io"
+  "repository": "https://github.com/DelphiWebStudio/delphiwebstudio.github.io",
+  "source": {
+    "href": "downloads/source/DelphiWebStudioPro-1.0.0.4-Source.zip",
+    "bytes": 24209249,
+    "sha256": "cd35f26a4ee67a7f9fea4b37f48729bca991efac4eb15804fe1c0c7589eafa61",
+    "kind": "developer-source",
+    "sourceCommit": "ef298c4d1dfb2636947b9a1e28f1016fbb6df6f2",
+    "label": "Developer source code",
+    "sizeLabel": "24.2 MB",
+    "checksumFile": {
+      "href": "downloads/source/DelphiWebStudioPro-1.0.0.4-Source.zip.sha256",
+      "bytes": 105,
+      "sha256": "045b69e598774369347b25ea341284905f9486e91b0bd4073ce71f9ed21b6a8c",
+      "kind": "source-checksum"
+    },
+    "repository": "https://github.com/DelphiWebStudio/DelphiWebstudio"
+  }
 }

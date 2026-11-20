@@ -37,6 +37,12 @@
         if (!names[code] && englishNames) {
           try { englishName = englishNames.of(aliases[code] || code) || code; } catch { /* Keep the language code fallback. */ }
         }
+        if (!nativeName || /^(undefined|null)$/i.test(nativeName)) {
+          nativeName = englishName;
+          if (typeof Intl.DisplayNames === 'function') {
+            try { nativeName = new Intl.DisplayNames([aliases[code] || code], { type: 'language' }).of(aliases[code] || code) || englishName; } catch { /* Keep the English label. */ }
+          }
+        }
         var label = englishName.toLocaleLowerCase('en') === nativeName.toLocaleLowerCase('en') ? englishName : englishName + ' (' + nativeName + ')';
         var flag = link.querySelector('img');
         link.dataset.bilingualLabel = 'true';

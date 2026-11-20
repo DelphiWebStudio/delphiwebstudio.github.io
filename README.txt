@@ -10,17 +10,19 @@ copying. No application build tools or account are needed to review the site.
 Contents
 index.html       Product overview
 features.html    Six concise groups covering the essential capabilities
-download.html    Local Win64 and Win32 installers, fingerprints and requirements
+download.html    Win64/Win32 installers, developer source ZIP and fingerprints
 guides.html      All seven PDF and DOCX guide pairs
 about.html       Open-source foundation, credits and license
 updates.html     Build 4, 3 and 2 release notes
 privacy.html     Website data and online translation disclosure
 404.html         Helpful missing-page response with links back to the website
 assets/          Shared styles, scripts, illustrative screenshots and product graphics
-downloads/       The actual installers, checksum files, guides and license notices
+downloads/       Installers, developer source, checksums, guides and license notices
 release-manifest.json  Version, relative paths, byte sizes and SHA-256 fingerprints
 
-Downloads are real copies of version 1.0.0.4, not redirects to GitHub.
+Downloads are real copies of version 1.0.0.4, served directly by this website.
+The developer source ZIP uses the exact tracked application source at commit
+ef298c4d1dfb2636947b9a1e28f1016fbb6df6f2; private/untracked files and Git history are excluded.
 All source product installers, application files, saved projects and draft
 storage outside this Website folder remain unchanged.
 
