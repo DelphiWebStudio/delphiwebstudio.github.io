@@ -56,6 +56,10 @@ public website address. No analytics or contact form is configured, and nothing
 in this website sends email. The privacy page describes GitHub hosting and the
 online translation service.
 
+Google Search Console ownership uses googled7b46486c107c0d4.html at the site
+root. Keep that file published with its exact filename and plain verification
+content; it is not a normal website page and must not receive page formatting.
+
 Keep publication limited to the reviewed website files. Never copy application
 project folders, local credentials, backups, browser profiles or test evidence
 into this directory or its repository. Changes should be reviewed and verified
